@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         mButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Button1", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Change1", Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -28,6 +28,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public  void  doSomething(View v){
-        Toast.makeText(this, "Button2", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Change2", Toast.LENGTH_SHORT).show();
     }
 }
