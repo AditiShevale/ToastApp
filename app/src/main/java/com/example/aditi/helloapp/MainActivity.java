@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+//    SecondWay To Create Toast
     public  void  doSomething(View v){
         Toast.makeText(this, "Change2", Toast.LENGTH_SHORT).show();
     }
