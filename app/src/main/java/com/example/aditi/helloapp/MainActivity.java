@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-//    SecondWay To Create OnClickListener
+    //SecondWay To Create OnClickListener
     public  void  doSomething(View v){
         Toast.makeText(this, "Change2", Toast.LENGTH_SHORT).show();
     }
